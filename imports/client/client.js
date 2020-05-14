@@ -150,7 +150,7 @@ Client.prototype.setupStreamListeners = function() {
 Client.prototype.animationLoop = function() {
     engine.update(60); // This needs to be updated to match current fps!!!
     // renderer.renderEditor();
-    renderer.renderMap();
+    // renderer.renderMap();
     engine.removeSoundObjects();
     window.requestAnimationFrame(client.animationLoop);
 }
